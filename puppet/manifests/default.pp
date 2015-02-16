@@ -71,9 +71,9 @@ class { "mysql":
 
 mysql::grant { 'symfony':
     mysql_privileges => 'ALL',
-    mysql_password => 'symfony-vagrant',
+    mysql_password => '',
     mysql_db => 'symfony',
-    mysql_user => 'symfony',
+    mysql_user => 'root',
     mysql_host => 'localhost',
 }
 
